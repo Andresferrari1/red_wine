@@ -1,0 +1,582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {    
+    font-family: 'Inconsolata', monospace;
+    background-size: cover;
+
+}
+
+
+
+
+/*ESTILOS GENERALES*/
+
+
+.pick_wine{
+    background-image: url(/imgs/contactanos_red.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #630300;
+    text-align: center;
+    font-size: 49px;
+    font-style:oblique;
+    padding: 8px;    
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dinner{
+    padding:25px;
+}
+
+.red-text {
+    color: #630300;
+
+
+}
+
+.white-text {
+    color:  #a39999;
+
+
+}
+
+.h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: #530505;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+h2{
+    color:  #630300;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6b0000;
+    
+}
+
+.h3{
+    font-size: 25px;
+    padding:10px;
+    color:  #6b0000; 
+}
+
+h4{
+    color: #a39999;
+    font-size: 23px;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/*ESTILOS HEADER*/
+
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+
+}
+.menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-grow: 0;
+}
+.li{
+    color: #3d0707;
+}
+
+
+
+.logo {
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.logo img {
+    border-radius: 75px;
+    max-width: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+/*ESTILOS MAIN INDEX*/
+
+
+.moment{
+    color: #d3caca;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.content-home{
+    text-align: center;
+}
+
+article{
+    display: block;
+}
+
+
+
+.botones{
+    color: #a39999;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+.botones img{
+    width: 15%;
+    border-radius: 22px;
+}
+
+
+
+/*ESTILOS  MAIN ALMUERZO Y CENA*/
+
+
+.wrap_column-1_carta{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    justify-items: center;
+    align-items: center;
+}
+
+.plato-carta1{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    width: 260px;
+    height: 460px;
+    background-color: #413939;
+    text-align: center;
+    border-radius: 20px 0px;
+    overflow: hidden;
+    box-shadow: 13px 8px 27px 0px rgba(0,0,0,0.75);
+}
+
+.plato-carta1 img{
+    width: 100%;
+    height: 210px;
+}
+
+.plato-carta1 .title-plato-carta{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin-top: 5px;
+    height: 150px;
+    
+}
+
+
+
+/*TITULO GNRAL (PASTAS, PIZZAS, CARNES Y POLLOS)*/
+.wrap-title-section1{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*TITULO (TALLARINES, NAPOLITANA, ETC)*/
+.title-plato-carta{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+}
+
+
+/*ELABORACION DE LA COMIDA*/
+
+/**/
+
+
+/*PIZZA LIBRE*/
+/*CONTENEDOR*/
+.p_libre{
+    font-size: 28px;
+}
+
+/*H3 DE PIZZA LIBRE*/
+.libre{
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+/*COMO ES LA CARTA DE PIZZA LIBRE*/
+.entrada{
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px rgba(94, 0, 0, 0.726);
+}
+
+/*BOTON DE PRECIO*/
+.p_button{
+    text-align: center;
+}
+.p_button button{
+    color: #853d3d;
+    background-color:#442c2b;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.p_button button:hover{
+    background-color: #111010;
+}
+
+
+
+
+/*ESTILOS MAIN DESAYUNO Y MERIENDA*/
+
+.wrap_column-2_carta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    text-align: center;
+    justify-items: center;
+    row-gap: 5px;
+}
+
+
+.plato-carta{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 250px;
+    height: 480px;
+    background-color: #413939;
+    text-align: center;
+    border-radius: 20px 0px;
+    overflow: hidden;
+    box-shadow: 13px 8px 27px 0px rgba(0,0,0,0.75);
+}
+
+.plato-carta img{
+    width: 100%;
+    height: 250px;
+}
+
+.plato-carta .title-plato-carta{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    margin-top: 5px;
+    height: 150px;
+    
+}
+
+.wrap-title-section{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dym_ayc{
+    background-color: #665858 ;
+}
+
+
+.p_button2{
+    text-align: center;
+
+}
+.p_button2 button{
+    color: #853d3d;
+    background-color:#442c2b;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.p_button2 button:hover{
+    background-color: #111010;
+}
+
+
+/*ESTILOS CONTACTO*/
+.msj{
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+}
+
+.mensaje_form{
+    padding: 3px;
+}
+
+.msj_form{
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+
+.form-section{
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #352c2c5b;
+    width: 75%;
+    margin: auto; 
+    padding: 10px;
+    border: 2px solid #584545;
+    border-radius: 5px;
+    text-align: center;
+}
+.input-form{
+    margin-bottom: 15px;
+    text-align: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.formulario .input-form {
+    margin-bottom: 15px;
+}
+
+.enviar{
+    color: #a19898;
+    background-color:#680505;
+    font-size: 18px;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 12px;
+
+
+}
+
+
+
+/*ESTILOS RESERVA*/
+.mesa{
+    background-color: #665858 ;
+}
+
+.main_reserva{
+    text-align: center;
+    padding: 10px;
+}
+.img_wine img{ 
+    display: flex;
+    margin-top: 65px;
+    text-align: center;
+    border-radius: 75%;
+    width: 155px;
+    height: 155px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.saludo_ws{
+    color:#521414;
+    background: none;
+    text-align: left;
+    margin-left: 20px;
+}
+.wps{
+    color: #530505;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.chat_reserva{
+    font-size: 17px;
+    background-color: #3d0707;
+    color: white;
+    padding:7px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.chat_reserva:hover {
+    background-color: #5f1510;
+}
+
+.download button{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #3d0707;
+    color: rgb(253, 251, 251);
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.download button:hover {
+    background-color: #5f1510;
+}
+
+
+
+/*ESTILOS UBICACION*/
+
+/*ESTILOS FOOTER*/
+footer{
+    position: relative;
+    margin-top: 80px;
+
+}
+.footer-link {
+    position: absolute;
+    bottom: 0;
+    margin: -50px;
+    padding: auto;
+    margin-left: 20px;
+    width: 85%;
+    font-size: 20px;
+}
+.mi_enlace{
+    color: rgb(1, 4, 61);
+
+}
+
+p {
+    color: #ccbbbb;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+    background-color: #3b2d2da1; 
+    padding: 10px;
+}
+
+
+
+.logo2 img {
+    border-radius: 75px;
+    max-width: 100%;
+    position: fixed;
+    right: 15px;
+    bottom: 20px; 
+    width: 55px;
+    height: 55px;
+    
+}
+
+
+/*MEDIAS QUERYS*/
+
+@media screen and (max-width: 1024px) {
+    .wrap_column-1_carta{
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 2, 300px;
+        gap: 1rem;
+    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrap_column-1_carta{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .wrap_column-2_carta{
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        gap: 1rem;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrap_column-2_carta{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
