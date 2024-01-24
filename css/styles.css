@@ -485,15 +485,52 @@ article{
 /*ESTILOS UBICACION*/
 
 /*ESTILOS FOOTER*/
-footer{
+.footer{
     position: relative;
     margin-top: 80px;
+    font-family: sans-serif;
+    text-transform: capitalize;
 
 }
-.footer-link {
+.footer{
+    background-color: #01102271;
+    padding: 70px 0;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-links{
+    width: 25%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.social-links:hover{
+    color: #ffffff;
+    padding-left: 3px;
+}
+.fab{
+    color: #d5dee0;
+}
+
+.social-links h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00C3FF;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-container {
+    max-width: 1200px;
     position: absolute;
     bottom: 0;
-    margin: -50px;
+    margin: 0 auto;
     padding: auto;
     margin-left: 20px;
     width: 85%;
@@ -505,8 +542,10 @@ footer{
 }
 
 p {
+    display: flex;
     color: #ccbbbb;
     font-size: 24px;
+    justify-items: center;
     text-align: center;
     width: 100%;
     background-color: #3b2d2da1; 
