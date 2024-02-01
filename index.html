@@ -14,14 +14,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <title>RED WINE | Inicio</title>
 </head>
 
 <body style="
-background-image: url(./../imgs/CONTACTANOS_RED.jpg);
+background-image: url(./imgs/contactanos_red.jpg);
 background-size: cover;
 ">
     <header>
@@ -41,6 +42,15 @@ background-size: cover;
                         <li class="nav-item">
                             <a class="nav-link" href="./../pages/contacto.html">CONTACTO</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/almuerzos_y_cenas.html">ALMUERZOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/desayunos_y_meriendas.html">DESAYUNOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/reserva_tu_mesa.html">RESERVA</a>
+                        </li>
                     </ul>
 
                 </div>
@@ -50,15 +60,14 @@ background-size: cover;
 
     </header>
 
-    <main>
+    <main class="main_index">
         <section class="container-index">
             <h1 class="h1"><span class="red-text">RED</span> <span class="white-text">WINE</span></h1>
-            <div class="moment">
+            <div class="momentos">
                 <h3>¡COMPARTÍ BUENOS MOMENTOS!</h3>
             </div>
 
             <article class="content-home">
-                <div style="margin-top: 40px; margin-bottom: 40px;"></div>
                 <div class="botones">
                     <a href="./pages/almuerzos_y_cenas.html">
                         <img src="./imgs/almuerzos_cenas.jpg" alt="almuerzos_cenas" />
@@ -85,10 +94,10 @@ background-size: cover;
             <div class="footer-row">
                 <div class="social-links">
                     <h4>Redes Sociales</h4>
-                    <a href="https://api.whatsapp.com/send?phone=3532416670">
+                    <a href="https://api.whatsapp.com/send?phone=3532416670" target="_blank">
                         <li class="fab fa-whatsapp"></li>
                     </a>
-                    <a href="https://instagram.com/totooferrari_?igshid=MjEwN2IyYWYwYw=="><i
+                    <a href="https://instagram.com/totooferrari_?igshid=MjEwN2IyYWYwYw==" target="_blank"><i
                             class="fab fa-instagram"></i></a>
                 </div>
                 <div class="logo2">
@@ -102,5 +111,4 @@ background-size: cover;
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

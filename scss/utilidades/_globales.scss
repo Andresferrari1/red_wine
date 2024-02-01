@@ -1,0 +1,74 @@
+/*ESTILOS GLOBALES*/
+body {    
+    font-family: 'Inconsolata', monospace;
+    background-size: cover;
+}
+
+.pick_wine{
+    background-image: url(/imgs/contactanos_red.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #630300;
+    text-align: center;
+    font-size: 49px;
+    font-style: oblique;
+    padding: 8px;    
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+.h1{
+    display: flex;
+    flex-wrap: wrap;
+    color: #530505;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+h2{
+    color:  #630300;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #6b0000;
+    
+}
+
+.h3{
+    font-size: 25px;
+    padding:5px;
+    color:  #460202; 
+}
+
+h4{
+    color: #a39999;
+    font-size: 23px;
+}
+
+
+.red-text {
+    color: #630300;
+}
+
+.white-text {
+    color:  #a39999;
+}
+
+.dym_ayc{
+    background-color: #665858 ;
+}
+
+.mesa{
+    background-color: #665858 ;
+}

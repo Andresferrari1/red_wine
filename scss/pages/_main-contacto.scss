@@ -1,0 +1,50 @@
+
+/*ESTILOS CONTACTO*/
+.main_contacto{
+    .form-section{
+        justify-content: center;
+        align-items: center;
+        .msj{
+            font-size: 20px;
+            text-align: center;
+            padding: 7px;
+        }
+        .formulario .input-form{
+            margin-bottom: 15px;
+        }
+        .formulario{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: #352c2c5b;
+            width: 75%;
+            margin: auto; 
+            padding: 10px;
+            border: 2px solid #584545;
+            border-radius: 5px;
+            text-align: center;
+            .input-form{
+                margin-bottom: 15px;
+                text-align: center;
+                justify-items: center;
+                padding: 5px;
+                .msj_form{
+                    padding: 5px;
+                    height: 40px;
+                    width: 100%;
+                    max-width: 50%;
+                    box-sizing: border-box;
+                }
+                .enviar{
+                    color: #a19898;
+                    background-color:#680505;
+                    font-size: 18px;
+                    padding: 5px;
+                    margin: 4px;
+                    border-radius: 12px;
+                
+                }
+            }
+        }
+    }
+}

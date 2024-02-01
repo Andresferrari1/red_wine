@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,14 +7,14 @@ body {
     font-family: 'Inconsolata', monospace;
     background-size: cover;
 
-}
+} */
 
 
 
 
 /*ESTILOS GENERALES*/
 
-
+/* 
 .pick_wine{
     background-image: url(/imgs/contactanos_red.jpg);
     background-size: cover;
@@ -84,68 +84,55 @@ h4{
 li{
     text-decoration: none;
     list-style: none;
-}
+}  */
 
 
 
 /*ESTILOS HEADER*/
 
 
-.navbar{
+/* header .navbar{
     display: flex;
     flex-wrap: wrap;
     font-size: 20px;
+} 
 
-
-}
-.menu{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    flex-grow: 0;
-}
-.li{
-    color: #3d0707;
-}
-
-
-
-.logo {
+header .navbar .container-fluid .logo {
     border-radius: 15px;
     width: 100px;
     height: 100px;
     margin: 10px;
-}
+} 
 
 .logo img {
     border-radius: 75px;
     max-width: 100%;
     width: 70px;
     height: 70px;
-}
+}  
 
-
-
-
-
+.container-fluid .menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex-grow: 0;
+}  */
 
 
 /*ESTILOS MAIN INDEX*/
 
 
-.moment{
+/* .momentos{
+    font-size: 50px;
     color: #d3caca;
     text-align: center;
-    font-size: 30px;
     margin-top: 0px;
     padding: 10px;
-}
+} 
 
 .content-home{
     text-align: center;
 }
 
-article{
-    display: block;
-}
+
 
 
 
@@ -162,22 +149,22 @@ article{
 .botones img{
     width: 20%;
     border-radius: 22px;
-}
+}   */
 
 
 
 /*ESTILOS  MAIN ALMUERZO Y CENA*/
 
 
-.wrap_column-1_carta{
+/* .wrap_column-1_carta{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 500px);
     justify-items: center;
     align-items: center;
-}
+}  */
 
-.plato-carta1{
+/* .plato-carta1{
     font-family: 'PT Serif', serif;
     font-weight: bold;
     width: 260px;
@@ -187,14 +174,14 @@ article{
     border-radius: 20px 0px;
     overflow: hidden;
     box-shadow: 13px 8px 27px 0px rgba(0,0,0,0.75);
-}
+}  */
 
-.plato-carta1 img{
+/* .plato-carta1 img{
     width: 100%;
     height: 210px;
-}
+} */
 
-.plato-carta1 .title-plato-carta{
+/* .plato-carta1 .title-plato-carta{
     display: grid;
     flex-direction: column;
     align-items: center;
@@ -204,12 +191,12 @@ article{
     margin-top: 5px;
     height: 150px;
     
-}
+}    */
 
 
 
 /*TITULO GNRAL (PASTAS, PIZZAS, CARNES Y POLLOS)*/
-.wrap-title-section1{
+/* .wrap-title-section1{
     text-align: center;
     font-size: 25px;
     margin: 0px;
@@ -217,12 +204,12 @@ article{
     margin-bottom: -20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+}  */
 /*TITULO (TALLARINES, NAPOLITANA, ETC)*/
-.title-plato-carta{
+/* .title-plato-carta{
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     font-size: 17px;
-}
+} */
 
 
 /*ELABORACION DE LA COMIDA*/
@@ -232,27 +219,27 @@ article{
 
 /*PIZZA LIBRE*/
 /*CONTENEDOR*/
-.p_libre{
+/* .p_libre{
     font-size: 28px;
-}
+} */
 
 /*H3 DE PIZZA LIBRE*/
-.libre{
+/* .libre{
     text-align: center;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
     
-}
+} */
 
 /*COMO ES LA CARTA DE PIZZA LIBRE*/
-.entrada{
+/* .entrada{
     text-align: center;
     padding: 10px;
     font-size: 24px;
     text-shadow: 2px 2px 3px rgba(94, 0, 0, 0.726);
-}
+} */
 
 /*BOTON DE PRECIO*/
-.p_button{
+/* .p_button{
     text-align: center;
 }
 .p_button button{
@@ -271,23 +258,23 @@ article{
 .p_button button:hover{
     background-color: #111010;
 }
-
+ */
 
 
 
 /*ESTILOS MAIN DESAYUNO Y MERIENDA*/
 
-.wrap_column-2_carta{
+/* .wrap_column-2_carta{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around ;
     text-align: center;
     justify-items: center;
     row-gap: 5px;
-}
+} */
 
 
-.plato-carta{
+/* .plato-carta{
     font-family: 'PT Serif', serif;
     font-weight: bold;
     font-size: 12px;
@@ -303,9 +290,9 @@ article{
 .plato-carta img{
     width: 100%;
     height: 250px;
-}
+} */
 
-.plato-carta .title-plato-carta{
+/* .plato-carta .title-plato-carta{
     display: grid;
     flex-direction: column;
     align-items: center;
@@ -314,8 +301,8 @@ article{
     margin-top: 5px;
     height: 150px;
     
-}
-
+} */
+/* 
 .wrap-title-section{
     text-align: center;
     font-size: 25px;
@@ -324,14 +311,14 @@ article{
     margin-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+} */
 
-.dym_ayc{
+/* .dym_ayc{
     background-color: #665858 ;
-}
+} */
 
 
-.p_button2{
+/* .p_button2{
     text-align: center;
 
 }
@@ -346,41 +333,39 @@ article{
     font-size: 17px;
     border: none;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
-}
+}  */
 
-.p_button2 button:hover{
+/* .p_button2 button:hover{
     background-color: #111010;
-}
+} */
 
 
 /*ESTILOS CONTACTO*/
-.msj{
+/* .msj{
     font-size: 20px;
     text-align: center;
     padding: 7px;
-}
+} */
 
-.mensaje_form{
+/* .mensaje_form{
     padding: 3px;
-}
+} */
 
-.msj_form{
+/* .msj_form{
     padding: 5px;
     height: 40px;
     width: 100%;
     max-width: 50%;
     box-sizing: border-box;
-}
+} */
 
 
-.form-section{
+/* .form-section{
     justify-content: center;
     align-items: center;
+} */
 
-    
-}
-
-.formulario {
+/* .formulario {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -391,8 +376,8 @@ article{
     border: 2px solid #584545;
     border-radius: 5px;
     text-align: center;
-}
-.input-form{
+} */
+/* .input-form{
     margin-bottom: 15px;
     text-align: center;
     justify-items: center;
@@ -401,9 +386,9 @@ article{
 
 .formulario .input-form {
     margin-bottom: 15px;
-}
+} */
 
-.enviar{
+/* .enviar{
     color: #a19898;
     background-color:#680505;
     font-size: 18px;
@@ -412,20 +397,20 @@ article{
     border-radius: 12px;
 
 
-}
+} */ 
 
 
 
 /*ESTILOS RESERVA*/
-.mesa{
+/* .mesa{
     background-color: #665858 ;
-}
+} */
 
-.main_reserva{
+/* .main_reserva{
     text-align: center;
     padding: 10px;
-}
-.img_wine img{ 
+} */
+/* .img_wine img{ 
     display: flex;
     margin-top: 65px;
     text-align: center;
@@ -434,20 +419,22 @@ article{
     height: 155px;
     margin-left: auto;
     margin-right: auto;
-}
-.saludo_ws{
+} */
+/* .saludo_ws{
     color:#521414;
     background: none;
     text-align: left;
     margin-left: 20px;
-}
-.wps{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+/* .wps{
     color: #530505;
     padding: 15px;
     font-size: 18px;
-}
+} */
 
-.chat_reserva{
+/* .chat_reserva{
     font-size: 17px;
     background-color: #3d0707;
     color: white;
@@ -458,13 +445,13 @@ article{
     text-decoration: none;
     font-family:Georgia, 'Times New Roman', Times, serif
     
-}
+} */ 
 
-.chat_reserva:hover {
+/* .chat_reserva:hover {
     background-color: #5f1510;
-}
+} */
 
-.download button{
+/* .download button{
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #3d0707;
@@ -474,18 +461,18 @@ article{
     border-radius: 5px;
     cursor: pointer;
 
-}
+} */
 
-.download button:hover {
+/* .download button:hover {
     background-color: #5f1510;
-}
+} */
 
 
 
 /*ESTILOS UBICACION*/
 
 /*ESTILOS FOOTER*/
-.footer{
+/* .footer{
     position: relative;
     margin-top: 80px;
     font-family: sans-serif;
@@ -493,11 +480,11 @@ article{
 
 }
 .footer{
-    background-color: #01102271;
+    background-color: #01102257;
     padding: 70px 0;
-}
+} */
 
-.footer-row{
+/* .footer-row{
     display: flex;
     flex-wrap: wrap;
 }
@@ -506,17 +493,17 @@ article{
     width: 25%;
     padding: 0 15px;
     text-align: center;
-}
+} */
 
-.social-links:hover{
+/* .social-links:hover{
     color: #ffffff;
     padding-left: 3px;
-}
-.fab{
+} */
+/* .fab{
     color: #d5dee0;
-}
+} */
 
-.social-links h4{
+/* .social-links h4{
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 25px;
@@ -524,9 +511,9 @@ article{
     border-bottom: 2px solid #00C3FF;
     display: inline-block;
     padding-bottom: 5px;
-}
+} */
 
-.footer-container {
+/* .footer-container {
     max-width: 1200px;
     position: absolute;
     bottom: 0;
@@ -535,26 +522,9 @@ article{
     margin-left: 20px;
     width: 85%;
     font-size: 20px;
-}
-.mi_enlace{
-    color: rgb(1, 4, 61);
+} */
 
-}
-
-p {
-    display: flex;
-    color: #ccbbbb;
-    font-size: 24px;
-    justify-items: center;
-    text-align: center;
-    width: 100%;
-    background-color: #3b2d2da1; 
-    padding: 10px;
-}
-
-
-
-.logo2 img {
+/* .logo2 img {
     border-radius: 75px;
     max-width: 100%;
     position: fixed;
@@ -563,12 +533,12 @@ p {
     width: 55px;
     height: 55px;
     
-}
+}  */
 
 
 /*MEDIAS QUERYS*/
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .wrap_column-1_carta{
         display: grid;
         grid-template-columns: 2;
@@ -604,10 +574,7 @@ p {
         gap: 1rem;
 
     }
-}
-
-
-
+} */
 
 
 

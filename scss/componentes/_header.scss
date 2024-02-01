@@ -1,0 +1,25 @@
+header{
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .container-fluid{
+        .logo{
+            border-radius: 15px;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            img{
+                border-radius: 75px;
+                max-width: 100%;
+                width: 70px;
+                height: 70px;
+            }
+        }
+        .menu{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            flex-grow: 0;
+        }
+    }
+}

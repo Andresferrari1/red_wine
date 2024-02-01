@@ -1,0 +1,60 @@
+
+/*ESTILOS RESERVA*/
+.main_reserva{
+    text-align: center;
+    padding: 10px;
+    .img_wine{
+        img{
+        display: flex;
+        margin-top: 65px;
+        text-align: center;
+        border-radius: 75%;
+        width: 155px;
+        height: 155px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+    .chat_reserva{
+        font-size: 17px;
+        background-color: #3d0707;
+        color: white;
+        padding:7px 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        &:hover{
+            background-color: #5f1510;
+        }
+    }
+    .wps{
+        color: #530505;
+        padding: 15px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .download button{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #3d0707;
+        color: rgb(253, 251, 251);
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            background-color: #5f1510;
+        }
+    }
+    .saludo_ws{
+        color:#521414;
+        background: none;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 20px;
+        font-size: 25px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}

@@ -1,0 +1,50 @@
+/*ESTILOS FOOTER*/
+.footer{
+    position: relative;
+    margin-top: 70px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    background-color: #01102254;
+    padding: 30px 0;
+    .footer-container{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 100px;
+        .footer-row{
+            display: flex;
+            justify-content: space-around; 
+            align-items: center; 
+            width: 20%; 
+            .social-links h4{
+                margin-bottom: 10px;
+                color: #ffffff;
+                border-bottom: 2px solid #00C3FF;
+            }
+            .social-links{
+                margin: 10px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                &:hover{
+                    color: #d1c8c8;
+                    padding-left: 3px;
+                }
+                .fab{
+                    color: #fcfafa;
+                    font-size: 26px;
+                }
+                .social-links a {
+                    margin: 0 5px; 
+                }
+            }
+            .logo2 img{
+                border-radius: 75px;
+                max-width: 100%;
+                position: fixed;
+                right: 15px;
+                bottom: 20px; 
+                width: 55px;
+                height: 55px;
+            }
+        }
+    }
+}

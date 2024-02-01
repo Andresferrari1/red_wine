@@ -1,0 +1,45 @@
+/*MEDIA QUERYS*/
+
+@media screen and (max-width: 1024px){
+    .main_alm{
+        .wrap_column-1_carta{
+            display: grid;
+            grid-template-columns: 2;
+            grid-template-rows: 2, 300px;
+            gap: 1rem;
+        
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main_alm{
+        .wrap_column-1_carta{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .main_des{
+        .wrap_column-2_carta{
+            display: grid;
+            grid-template-columns: repeat(2,300px);
+            gap: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main_des{
+        .wrap_column-2_carta{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+    
+        }
+    }
+}
