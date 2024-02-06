@@ -22,11 +22,13 @@ h1{
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
+/*UTILIZACION DE EXTEND*/
 .h1{
-    display: flex;
-    flex-wrap: wrap;
-    color: #530505;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    @extend %manera;
+    // display: flex;
+    // flex-wrap: wrap;
+    // color: #530505;
+    // text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -67,6 +69,7 @@ h4{
 
 .dym_ayc{
     background-color: #665858 ;
+    max-width: 100%;
 }
 
 .mesa{

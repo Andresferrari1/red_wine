@@ -1,6 +1,6 @@
 /*ESTILOS DESAYUNOS*/
 
-.main_des{
+.main_des
     .wrap-title-section{
         text-align: center;
         font-size: 25px;
@@ -10,6 +10,7 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
+
     /*MIXIN FLEX DESAYUNO*/
     .wrap_column-2_carta{
         @include flex(center, center, space-around);
@@ -64,4 +65,4 @@
             }
         }
     }
-}
+
