@@ -1,530 +1,479 @@
 /*ESTILOS RESET*/
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*ESTILOS GLOBALES*/
 body {
-    font-family: "Inconsolata", monospace;
-    background-size: cover;
+  font-family: "Inconsolata", monospace;
+  background-size: cover;
 }
 
 .pick_wine {
-    background-image: url(/imgs/contactanos_red.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(/imgs/contactanos_red.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #630300;
-    text-align: center;
-    font-size: 49px;
-    font-style: oblique;
-    padding: 8px;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #630300;
+  text-align: center;
+  font-size: 49px;
+  font-style: oblique;
+  padding: 8px;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
+/*UTILIZACION DE EXTEND*/
 h2 {
-    color: #630300;
-    padding-bottom: 30px;
-    padding-top: 40px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-weight: bold;
+  color: #630300;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
 }
 
 h3 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: #6b0000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #6b0000;
 }
 
 .h3 {
-    font-size: 25px;
-    padding: 5px;
-    color: #460202;
+  font-size: 25px;
+  padding: 5px;
+  color: #460202;
 }
 
 h4 {
-    color: #a39999;
-    font-size: 23px;
+  color: #a39999;
+  font-size: 23px;
 }
 
 .red-text {
-    color: #630300;
+  color: #630300;
 }
 
 .white-text {
-    color: #a39999;
+  color: #a39999;
 }
 
 .dym_ayc {
-    background-color: #665858;
-    max-width: 100%;
+  background-color: rgba(1, 10, 3, 0.6980392157);
+  max-width: 100%;
 }
 
 .mesa {
-    background-color: #665858;
+  background-color: rgba(1, 10, 3, 0.6980392157);
 }
 
-/* ESTILO EXTEND */
 .h1 {
-    display: flex;
-    flex-wrap: wrap;
-    color: #530505;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  color: #530505;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 header .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
 }
-
 header .container-fluid .logo {
-    border-radius: 15px;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
-
 header .container-fluid .logo img {
-    border-radius: 75px;
-    max-width: 100%;
-    width: 70px;
-    height: 70px;
+  border-radius: 75px;
+  max-width: 100%;
+  width: 70px;
+  height: 70px;
 }
-
 header .container-fluid .menu {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    flex-grow: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  flex-grow: 0;
 }
 
 /*ESTILOS MAIN INDEX*/
 .main_index .momentos {
-    font-size: 50px;
-    color: #d3caca;
-    text-align: center;
-    margin-top: 0px;
-    padding: 10px;
+  font-size: 50px;
+  color: #d3caca;
+  text-align: center;
+  margin-top: 0px;
+  padding: 10px;
 }
-
 .main_index .content-home {
-    text-align: center;
+  text-align: center;
 }
-
 .main_index .botones {
-    color: #a39999;
-    text-align: center;
-    margin-bottom: 10px;
-    text-decoration: none;
-    padding: 2px;
-    margin: 2px;
+  color: #a39999;
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  padding: 2px;
+  margin: 2px;
 }
-
 .main_index .botones img {
-    width: 20%;
-    border-radius: 22px;
+  width: 20%;
+  border-radius: 22px;
 }
 
 /*ESTILOS MAIN ALMUERZO*/
 .main_alm .wrap-title-section1 {
-    text-align: center;
-    font-size: 25px;
-    margin: 0px;
-    margin-top: 10px;
-    margin-bottom: -20px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-
 .main_alm .wrap_column-1_carta {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 500px);
-    justify-items: center;
-    align-items: center;
-    /*MIXIN GRID ALMUERZO*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 500px);
+  justify-items: center;
+  align-items: center;
+  /*MIXIN GRID ALMUERZO*/
 }
-
 .main_alm .wrap_column-1_carta .plato-carta1 .title-plato-carta {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    row-gap: 10px;
-    margin-top: 5px;
-    height: 150px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  row-gap: 10px;
+  margin-top: 5px;
+  height: 150px;
 }
-
 .main_alm .wrap_column-1_carta .plato-carta1 {
-    font-family: "PT Serif", serif;
-    font-weight: bold;
-    width: 260px;
-    height: 460px;
-    background-color: #413939;
-    text-align: center;
-    border-radius: 20px 0px;
-    overflow: hidden;
-    box-shadow: 13px 8px 27px 0px rgba(0, 0, 0, 0.75);
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  width: 260px;
+  height: 460px;
+  background-color: #413939;
+  text-align: center;
+  border-radius: 20px 0px;
+  overflow: hidden;
+  box-shadow: 13px 8px 27px 0px rgba(0, 0, 0, 0.75);
 }
-
 .main_alm .wrap_column-1_carta .plato-carta1 img {
-    width: 100%;
-    height: 210px;
+  width: 100%;
+  height: 210px;
 }
-
 .main_alm .wrap_column-1_carta .plato-carta1 .title-plato-carta {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    font-size: 17px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 17px;
 }
-
 .main_alm .wrap_column-1_carta .plato-carta1 .p_button2 {
-    text-align: center;
+  text-align: center;
 }
-
 .main_alm .wrap_column-1_carta .plato-carta1 .p_button2 button {
-    color: #853d3d;
-    background-color: #442c2b;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 25px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 17px;
-    border: none;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  color: #853d3d;
+  background-color: #442c2b;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
-
 .main_alm .wrap_column-1_carta .plato-carta1 .p_button2 button:hover {
-    background-color: #111010;
+  background-color: #111010;
 }
-
 .main_alm .p_libre {
-    font-size: 28px;
+  font-size: 28px;
 }
-
 .main_alm .p_libre .libre {
-    text-align: center;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
-
 .main_alm .p_libre .entrada {
-    text-align: center;
-    padding: 10px;
-    font-size: 24px;
-    text-shadow: 2px 2px 3px rgba(94, 0, 0, 0.726);
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  text-shadow: 2px 2px 3px rgba(94, 0, 0, 0.726);
 }
-
 .main_alm .p_libre .p_button {
-    text-align: center;
+  text-align: center;
 }
-
 .main_alm .p_libre .p_button button {
-    color: #853d3d;
-    background-color: #442c2b;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 25px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 25px;
-    border: none;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  color: #853d3d;
+  background-color: #442c2b;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  border: none;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
-
 .main_alm .p_libre .p_button button:hover {
-    background-color: #111010;
+  background-color: #111010;
 }
 
 /*ESTILOS DESAYUNOS*/
 .main_des .wrap-title-section {
-    text-align: center;
-    font-size: 25px;
-    margin: 0px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /*MIXIN FLEX DESAYUNO*/
 .wrap_column-2_carta {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    justify-items: center;
-    row-gap: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-items: center;
+  row-gap: 5px;
 }
-
 .wrap_column-2_carta .plato-carta .title-plato-carta {
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    row-gap: 10px;
-    margin-top: 5px;
-    height: 150px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 10px;
+  margin-top: 5px;
+  height: 150px;
 }
-
 .wrap_column-2_carta .plato-carta {
-    font-family: "PT Serif", serif;
-    font-weight: bold;
-    font-size: 12px;
-    width: 250px;
-    height: 480px;
-    background-color: #413939;
-    text-align: center;
-    border-radius: 20px 0px;
-    overflow: hidden;
-    box-shadow: 13px 8px 27px 0px rgba(0, 0, 0, 0.75);
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 12px;
+  width: 250px;
+  height: 480px;
+  background-color: #413939;
+  text-align: center;
+  border-radius: 20px 0px;
+  overflow: hidden;
+  box-shadow: 13px 8px 27px 0px rgba(0, 0, 0, 0.75);
 }
-
 .wrap_column-2_carta .plato-carta img {
-    width: 100%;
-    height: 250px;
+  width: 100%;
+  height: 250px;
 }
-
 .wrap_column-2_carta .plato-carta .title-plato-carta {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-    font-size: 17px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-size: 17px;
 }
-
 .wrap_column-2_carta .plato-carta .p_button2 {
-    text-align: center;
+  text-align: center;
 }
-
 .wrap_column-2_carta .plato-carta .p_button2 button {
-    color: #853d3d;
-    background-color: #442c2b;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 25px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 17px;
-    border: none;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+  color: #853d3d;
+  background-color: #442c2b;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+  border: none;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
-
 .wrap_column-2_carta .plato-carta .p_button2 button:hover {
-    background-color: #111010;
+  background-color: #111010;
 }
 
 /*ESTILOS CONTACTO*/
 .main_contacto .form-section {
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .main_contacto .form-section .msj {
-    font-size: 20px;
-    text-align: center;
-    padding: 7px;
+  font-size: 20px;
+  text-align: center;
+  padding: 7px;
 }
-
 .main_contacto .form-section .formulario .input-form {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-
 .main_contacto .form-section .formulario {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: rgba(53, 44, 44, 0.3568627451);
-    width: 75%;
-    margin: auto;
-    padding: 10px;
-    border: 2px solid #584545;
-    border-radius: 5px;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(53, 44, 44, 0.3568627451);
+  width: 75%;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #584545;
+  border-radius: 5px;
+  text-align: center;
 }
-
 .main_contacto .form-section .formulario .input-form {
-    margin-bottom: 15px;
-    text-align: center;
-    justify-items: center;
-    padding: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+  justify-items: center;
+  padding: 5px;
 }
-
 .main_contacto .form-section .formulario .input-form .msj_form {
-    padding: 5px;
-    height: 40px;
-    width: 100%;
-    max-width: 50%;
-    box-sizing: border-box;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+  max-width: 50%;
+  box-sizing: border-box;
 }
-
 .main_contacto .form-section .formulario .input-form .enviar {
-    color: #a19898;
-    background-color: #680505;
-    font-size: 18px;
-    padding: 5px;
-    margin: 4px;
-    border-radius: 12px;
+  color: #a19898;
+  background-color: #680505;
+  font-size: 18px;
+  padding: 5px;
+  margin: 4px;
+  border-radius: 12px;
 }
 
 /*ESTILOS RESERVA*/
 .main_reserva {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
-
 .main_reserva .img_wine img {
-    display: flex;
-    margin-top: 65px;
-    text-align: center;
-    border-radius: 75%;
-    width: 155px;
-    height: 155px;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  margin-top: 65px;
+  text-align: center;
+  border-radius: 75%;
+  width: 155px;
+  height: 155px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 .main_reserva .chat_reserva {
-    font-size: 17px;
-    background-color: #3d0707;
-    color: white;
-    padding: 7px 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  background-color: #3d0707;
+  color: white;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .main_reserva .chat_reserva:hover {
-    background-color: #5f1510;
+  background-color: #5f1510;
 }
-
 .main_reserva .wps {
-    color: #530505;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: 600;
+  color: #530505;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
 }
-
 .main_reserva .download button {
-    font-size: 15px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    background-color: #3d0707;
-    color: rgb(253, 251, 251);
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #3d0707;
+  color: rgb(253, 251, 251);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
 .main_reserva .download button:hover {
-    background-color: #5f1510;
+  background-color: #5f1510;
 }
-
 .main_reserva .saludo_ws {
-    color: #521414;
-    background: none;
-    font-weight: 500;
-    text-align: left;
-    margin-left: 20px;
-    font-size: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #521414;
+  background: none;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /*ESTILOS FOOTER*/
 .footer {
-    position: relative;
-    margin-top: 70px;
-    font-family: sans-serif;
-    text-transform: capitalize;
-    background-color: rgba(1, 16, 34, 0.3294117647);
-    padding: 30px 0;
+  position: relative;
+  margin-top: 70px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  background-color: rgba(1, 16, 34, 0.3294117647);
+  padding: 30px 0;
 }
-
 .footer .footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
-
 .footer .footer-container .footer-row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
 }
-
 .footer .footer-container .footer-row .social-links h4 {
-    margin-bottom: 10px;
-    color: #ffffff;
-    border-bottom: 2px solid #00C3FF;
+  margin-bottom: 10px;
+  color: #ffffff;
+  border-bottom: 2px solid #00C3FF;
 }
-
 .footer .footer-container .footer-row .social-links {
-    margin: 10px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .footer .footer-container .footer-row .social-links:hover {
-    color: #d1c8c8;
-    padding-left: 3px;
+  color: #d1c8c8;
+  padding-left: 3px;
 }
-
 .footer .footer-container .footer-row .social-links .fab {
-    color: #fcfafa;
-    font-size: 26px;
+  color: #fcfafa;
+  font-size: 26px;
 }
-
 .footer .footer-container .footer-row .social-links .social-links a {
-    margin: 0 5px;
+  margin: 0 5px;
 }
-
 .footer .footer-container .footer-row .logo2 img {
-    border-radius: 75px;
-    max-width: 100%;
-    position: fixed;
-    right: 15px;
-    bottom: 20px;
-    width: 55px;
-    height: 55px;
+  border-radius: 75px;
+  max-width: 100%;
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  width: 55px;
+  height: 55px;
 }
 
 /*MEDIA QUERYS*/
 @media screen and (max-width: 1024px) {
-    .main_alm .wrap_column-1_carta {
-        display: grid;
-        grid-template-columns: 2;
-        grid-template-rows: 2, 300px;
-        gap: 1rem;
-    }
+  .main_alm .wrap_column-1_carta {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2, 300px;
+    gap: 1rem;
+  }
 }
-
 @media screen and (max-width: 768px) {
-    .main_alm .wrap_column-1_carta {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+  .main_alm .wrap_column-1_carta {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
-
 @media screen and (max-width: 1024px) {
-    .main_des .wrap_column-2_carta {
-        display: grid;
-        grid-template-columns: repeat(2, 300px);
-        gap: 1rem;
-    }
+  .main_des .wrap_column-2_carta {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 1rem;
+  }
 }
-
 @media screen and (max-width: 768px) {
-    .main_des .wrap_column-2_carta {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+  .main_des .wrap_column-2_carta {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
