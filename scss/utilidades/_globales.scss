@@ -67,6 +67,17 @@ h4{
     color:  #a39999;
 }
 
+.menu-icon{
+    background-image: url(../../imgs/menu-hamburguesa.png);
+}
+
+.menu-button{
+    border: 0;
+}
+
+.menu-button:focus{
+    box-shadow: none;
+}
 .dym_ayc{
     background-color: #535252 ;
     max-width: 100%;
