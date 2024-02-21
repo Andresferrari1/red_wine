@@ -146,6 +146,34 @@ header .container-fluid .menu {
   width: 20%;
   border-radius: 22px;
 }
+.main_index .momentos_2 {
+  font-size: 50px;
+  color: #b4acac;
+  text-align: center;
+  margin-top: 0px;
+  padding: 20px;
+}
+.main_index .ubi {
+  color: rgba(110, 2, 2, 0.9254901961);
+  background-color: rgba(224, 213, 213, 0.2392156863);
+  display: inline-block;
+}
+.main_index .maps {
+  margin-top: 25px;
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.main_index .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.main_index .mapa-container:hover {
+  opacity: 1;
+}
 
 /*ESTILOS MAIN ALMUERZO*/
 .main_alm .font_alm {
@@ -487,7 +515,7 @@ header .container-fluid .menu {
     gap: 1rem;
   }
   .main_alm .font_alm {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -502,6 +530,9 @@ header .container-fluid .menu {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  .main_des .font_des {
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 768px) {

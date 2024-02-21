@@ -25,4 +25,34 @@
                 border-radius: 22px;
             }
         }
+        .momentos_2{
+            font-size: 50px;
+            color: #b4acac;
+            text-align: center;
+            margin-top: 0px;
+            padding: 20px;
+        }
+        .ubi{
+            color: #6e0202ec;
+            background-color: #e0d5d53d;
+            display: inline-block;
+        }
+        .maps{
+            margin-top: 25px;
+            margin-bottom: 100px;
+            position: relative;
+            overflow: hidden;
     }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .mapa-container:hover {
+        opacity: 1;
+
+
+}
+}
