@@ -148,6 +148,9 @@ header .container-fluid .menu {
 }
 
 /*ESTILOS MAIN ALMUERZO*/
+.main_alm .font_alm {
+  font-size: 49px;
+}
 .main_alm .wrap-title-section1 {
   text-align: center;
   font-size: 25px;
@@ -482,6 +485,9 @@ header .container-fluid .menu {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+  .main_alm .font_alm {
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 1024px) {
