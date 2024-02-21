@@ -153,26 +153,13 @@ header .container-fluid .menu {
   margin-top: 0px;
   padding: 20px;
 }
-.main_index .ubi {
-  color: rgba(110, 2, 2, 0.9254901961);
-  background-color: rgba(224, 213, 213, 0.2392156863);
+.main_index .text_rd {
+  color: #440000;
+  background-color: rgba(224, 213, 213, 0.3137254902);
   display: inline-block;
-}
-.main_index .maps {
-  margin-top: 25px;
-  margin-bottom: 100px;
-  position: relative;
-  overflow: hidden;
-}
-.main_index .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.main_index .mapa-container:hover {
-  opacity: 1;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
 }
 
 /*ESTILOS MAIN ALMUERZO*/
