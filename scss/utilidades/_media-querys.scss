@@ -43,3 +43,12 @@
         }
     }
 }
+
+@media screen and (max-width: 768px){
+    .content-home{
+        .botones img{
+            width: 180px;
+            justify-content: center;
+        }
+    }
+}

@@ -30,6 +30,10 @@ h1 {
 }
 
 /*UTILIZACION DE EXTEND*/
+.h1 {
+  padding: 20px;
+}
+
 h2 {
   color: #630300;
   padding-bottom: 30px;
@@ -490,6 +494,12 @@ header .container-fluid .menu {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content-home .botones img {
+    width: 180px;
+    justify-content: center;
   }
 }
 
