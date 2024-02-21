@@ -12,9 +12,11 @@ body {
 }
 
 .pick_wine {
-  background-image: url(./../../imgs/contactanos_red.jpg);
+  background-image: url(/./imgs/contactanos_red.jpg);
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
