@@ -12,7 +12,7 @@ body {
 }
 
 .pick_wine {
-  background-image: url(../imgs/contactanos_red.jpg);
+  background-image: url(../imgs/contactanos_redd.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -131,9 +131,11 @@ header .container-fluid .menu {
   margin-top: 0px;
   padding: 10px;
 }
+
 .main_index .content-home {
   text-align: center;
 }
+
 .main_index .botones {
   color: #a39999;
   text-align: center;
@@ -142,24 +144,44 @@ header .container-fluid .menu {
   padding: 2px;
   margin: 2px;
 }
+
 .main_index .botones img {
   width: 20%;
   border-radius: 22px;
 }
-.main_index .momentos_2 {
-  font-size: 50px;
-  color: #b4acac;
+
+.main_index .contain_horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin-top: 0px;
-  padding: 20px;
+  padding: 40px;
 }
-.main_index .text_rd {
-  color: #440000;
-  background-color: rgba(224, 213, 213, 0.3137254902);
-  display: inline-block;
+
+.main_index .hijo1_horarios {
   text-align: center;
   justify-content: center;
-  width: 50%;
+  background-color: rgba(184, 148, 148, 0.788);
+  padding: 20px;
+  border-radius: 30px 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hijo1_horarios:hover {
+  background-color: rgba(156, 150, 150, 0.8705882353);
+}
+
+.main_index .hijo2_horarios {
+  color: #380000;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.main_index .horarios {
+  color: #520000;
+  font-weight: 700;
 }
 
 /*ESTILOS MAIN ALMUERZO*/
@@ -526,6 +548,15 @@ header .container-fluid .menu {
   .content-home .botones img {
     width: 180px;
     justify-content: center;
+  }
+  .contain_horarios {
+    padding: 15px;
+  }
+  .hijo2_horarios {
+    font-size: 1.2rem;
+  }
+  .horarios {
+    font-size: 1rem;
   }
 }
 
