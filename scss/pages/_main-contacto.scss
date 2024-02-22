@@ -21,7 +21,7 @@
             margin: auto; 
             padding: 10px;
             border: 2px solid #584545;
-            border-radius: 5px;
+            border-radius: 30px 5px;
             text-align: center;
             .input-form{
                 margin-bottom: 15px;
@@ -38,11 +38,17 @@
                 .enviar{
                     color: #a19898;
                     background-color:#680505;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                     font-size: 18px;
-                    padding: 5px;
-                    margin: 4px;
-                    border-radius: 12px;
+                    padding: 6px;
+                    margin: 6px;
+                    border-radius: 25% 25% 15% 15%;
+                    border: 2px solid #5c5757;
                 
+                }
+                .enviar:hover{
+                    background-color: #360000;
+                    transition: background-color 0.3s ease;
                 }
             }
         }

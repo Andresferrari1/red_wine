@@ -141,7 +141,7 @@ header .container-fluid .menu {
   text-align: center;
   margin-bottom: 10px;
   text-decoration: none;
-  padding: 2px;
+  padding: 4px;
   margin: 2px;
 }
 
@@ -166,6 +166,7 @@ header .container-fluid .menu {
   padding: 20px;
   border-radius: 30px 5px;
   transition: background-color 0.3s ease;
+  border: 2px solid rgb(80, 0, 0);
 }
 
 .hijo1_horarios:hover {
@@ -374,7 +375,7 @@ header .container-fluid .menu {
   margin: auto;
   padding: 10px;
   border: 2px solid #584545;
-  border-radius: 5px;
+  border-radius: 30px 5px;
   text-align: center;
 }
 .main_contacto .form-section .formulario .input-form {
@@ -393,10 +394,16 @@ header .container-fluid .menu {
 .main_contacto .form-section .formulario .input-form .enviar {
   color: #a19898;
   background-color: #680505;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 18px;
-  padding: 5px;
-  margin: 4px;
-  border-radius: 12px;
+  padding: 6px;
+  margin: 6px;
+  border-radius: 25% 25% 15% 15%;
+  border: 2px solid #5c5757;
+}
+.main_contacto .form-section .formulario .input-form .enviar:hover {
+  background-color: #360000;
+  transition: background-color 0.3s ease;
 }
 
 /*ESTILOS RESERVA*/
@@ -546,17 +553,17 @@ header .container-fluid .menu {
 }
 @media screen and (max-width: 768px) {
   .content-home .botones img {
-    width: 180px;
+    width: 190px;
     justify-content: center;
   }
   .contain_horarios {
     padding: 15px;
   }
   .hijo2_horarios {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .horarios {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
