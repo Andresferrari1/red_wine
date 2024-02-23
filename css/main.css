@@ -188,6 +188,7 @@ header .container-fluid .menu {
 /*ESTILOS MAIN ALMUERZO*/
 .main_alm .font_alm {
   font-size: 49px;
+  border-radius: 10px 14px;
 }
 .main_alm .wrap-title-section1 {
   text-align: center;
@@ -240,6 +241,7 @@ header .container-fluid .menu {
 .main_alm .wrap_column-1_carta .plato-carta1 .p_button2 button {
   color: #853d3d;
   background-color: #442c2b;
+  transition: background-color 0.3s ease;
   cursor: pointer;
   text-align: center;
   margin-bottom: 25px;
@@ -250,7 +252,7 @@ header .container-fluid .menu {
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 .main_alm .wrap_column-1_carta .plato-carta1 .p_button2 button:hover {
-  background-color: #111010;
+  background-color: rgba(15, 12, 12, 0.9254901961);
 }
 .main_alm .p_libre {
   font-size: 28px;
@@ -340,6 +342,7 @@ header .container-fluid .menu {
 .wrap_column-2_carta .plato-carta .p_button2 button {
   color: #853d3d;
   background-color: #442c2b;
+  transition: background-color 0.3s ease;
   cursor: pointer;
   text-align: center;
   margin-bottom: 25px;
