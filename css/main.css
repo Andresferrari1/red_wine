@@ -191,6 +191,14 @@ header .container-fluid .menu {
   font-size: 49px;
   border-radius: 10px 14px;
 }
+.fondo{
+  height: 60%;
+  width: 100%;
+}
+.fondo2{
+  height: auto;
+  width: 100%;
+}
 .main_alm .wrap-title-section1 {
   text-align: center;
   font-size: 25px;
@@ -206,6 +214,7 @@ header .container-fluid .menu {
   grid-template-rows: repeat(2, 500px);
   justify-items: center;
   align-items: center;
+  
   /*MIXIN GRID ALMUERZO*/
 }
 .main_alm .wrap_column-1_carta .plato-carta1 .title-plato-carta {
@@ -220,8 +229,8 @@ header .container-fluid .menu {
 .main_alm .wrap_column-1_carta .plato-carta1 {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  width: 260px;
-  height: 460px;
+  width: 380px;
+  height: 420px;
   background-color: #413939;
   text-align: center;
   border-radius: 20px 0px;
@@ -230,7 +239,7 @@ header .container-fluid .menu {
 }
 .main_alm .wrap_column-1_carta .plato-carta1 img {
   width: 100%;
-  height: 210px;
+  height: 250px;
 }
 .main_alm .wrap_column-1_carta .plato-carta1 .title-plato-carta {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -321,8 +330,8 @@ header .container-fluid .menu {
   font-family: "PT Serif", serif;
   font-weight: bold;
   font-size: 12px;
-  width: 250px;
-  height: 480px;
+  width: 320px;
+  height: 500px;
   background-color: #413939;
   text-align: center;
   border-radius: 20px 0px;
@@ -331,7 +340,7 @@ header .container-fluid .menu {
 }
 .wrap_column-2_carta .plato-carta img {
   width: 100%;
-  height: 250px;
+  height: 300px;
 }
 .wrap_column-2_carta .plato-carta .title-plato-carta {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
