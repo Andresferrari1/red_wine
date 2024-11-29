@@ -86,7 +86,7 @@ h4 {
 }
 
 .mesa {
-  background-color: #535252;
+  background-image: url(https://files.oaiusercontent.com/file-FcTvqf7RojNfUNjr1QY85u?se=2024-11-29T14%3A51%3A08Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df84ef886-ee7a-48d7-a9f6-b254b07a2001.webp&sig=YL/QH7hILyJ/F8AIdY4piYDRmSWMMKIY1TJI073GXb0%3D);
 }
 
 .contact {
@@ -97,7 +97,7 @@ h4 {
 .h1 {
   display: flex;
   flex-wrap: wrap;
-  color: #530505;
+  color: #beb7b7;
   text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -449,10 +449,11 @@ header .container-fluid .menu {
   background-color: #5f1510;
 }
 .main_reserva .wps {
-  color: #530505;
-  padding: 15px;
-  font-size: 18px;
+  color: #beb7b7;
+  margin: 30px;
+  font-size: 30px;
   font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
 }
 .main_reserva .download button {
   font-size: 15px;
