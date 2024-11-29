@@ -12,7 +12,7 @@ body {
 }
 
 .pick_wine {
-  background-image: url(../imgs/contactanos_redd.jpg);
+  background-image: url(https://files.oaiusercontent.com/file-FcTvqf7RojNfUNjr1QY85u?se=2024-11-29T14%3A51%3A08Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df84ef886-ee7a-48d7-a9f6-b254b07a2001.webp&sig=YL/QH7hILyJ/F8AIdY4piYDRmSWMMKIY1TJI073GXb0%3D);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h2 {
 
 h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgba(110, 2, 2, 0.9647058824);
+  color: rgb(196, 192, 192);
 }
 
 .h3 {
