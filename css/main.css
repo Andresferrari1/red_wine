@@ -567,6 +567,8 @@ header .container-fluid .menu {
     font-size: 2.5rem;
   }
 }
+
+
 @media screen and (max-width: 1024px) {
   .main_des .wrap_column-2_carta {
     display: grid;
@@ -591,6 +593,7 @@ header .container-fluid .menu {
   }
   .contain_horarios {
     padding: 15px;
+
   }
   .hijo2_horarios {
     font-size: 1.3rem;
