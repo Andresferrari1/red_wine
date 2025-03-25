@@ -562,18 +562,19 @@ header .container-fluid .menu {
   .main_alm .wrap_column-1_carta {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 2rem;
   }
-  .plato-carta1{
-    height: 360px;
-    width: 160px;
+  .main_alm .wrap_column-1_carta .plato-carta1{
+    height: 420px;
+    width: 280px;
     font-family:'PT Serif', serif;
     overflow: hidden;
     box-shadow: 13px 8px 27px 0px rgba(0,0,0,0.75);
   }
-  .plato-carta1 img{
+  .main_alm .wrap_column-1_carta .plato-carta1 img{
     width: 100%;
-    height: 100px;
+    height: 200px;
+    background-color: #00C3FF;
   }
   .main_alm .font_alm {
     font-size: 2.5rem;
