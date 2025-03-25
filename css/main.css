@@ -137,6 +137,35 @@ header .container-fluid .menu {
   font-family: Georgia, "Times New Roman", Times, serif;
   flex-grow: 0;
 }
+/* Línea que aparece al pasar el mouse */
+header .container-fluid .menu a {
+  position: relative;
+  text-decoration: none;
+  color:#918e8e; /* Color base de los enlaces */
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+header .container-fluid .menu a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px; /* Ajuste para la posición de la línea */
+  width: 0;
+  height: 2px;
+  background-color: rgb(146, 0, 0);
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+header .container-fluid .menu a:hover {
+  color: rgb(146, 0, 0);
+}
+
+header .container-fluid .menu a:hover::after {
+  width: 100%;
+  left: 0;
+}
 
 /*ESTILOS MAIN INDEX*/
 .main_index .momentos {
