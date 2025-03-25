@@ -591,7 +591,7 @@ header .container-fluid .menu a:hover::after {
 
 @media screen and (max-width: 768px) {
   .main_alm .fondo {
-    height: 350px;
+    height: 300px;
     width: 100%;
   }
   .main_alm .wrap_column-1_carta {
@@ -627,7 +627,7 @@ header .container-fluid .menu a:hover::after {
 }
 @media screen and (max-width: 768px) {
   .main_des .fondo{
-    height: 350px;
+    height: 300px;
     width: 100%;
   }
   .main_des .wrap_column-2_carta {
@@ -644,7 +644,7 @@ header .container-fluid .menu a:hover::after {
   }
   .main_des .wrap_column-2_carta .plato-carta img{
     width: 100%;
-    height: 190px;
+    height: 210px;
   }
   .main_des .font_des {
     font-size: 2.5rem;
