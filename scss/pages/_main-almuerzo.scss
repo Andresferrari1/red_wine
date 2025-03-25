@@ -110,3 +110,55 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .main_alm {
+        .font_alm {
+            font-size: 35px; // Reducimos el tamaño del título
+        }
+
+        .wrap-title-section1 {
+            font-size: 20px;
+            margin-top: 5px;
+            margin-bottom: -10px;
+        }
+
+        .wrap_column-1_carta {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); // Dos columnas en lugar de tres
+            grid-template-rows: auto;
+            row-gap: 20px; // Espaciado entre filas
+
+            .plato-carta1 {
+                width: 200px;
+                height: 400px;
+
+                img {
+                    height: 180px; // Reducimos la altura de la imagen
+                }
+
+                .title-plato-carta {
+                    font-size: 15px;
+                }
+
+                .p_button2 button {
+                    font-size: 15px;
+                    padding: 4px 8px;
+                }
+            }
+        }
+
+        .p_libre {
+            font-size: 24px;
+
+            .entrada {
+                font-size: 20px;
+            }
+
+            .p_button button {
+                font-size: 20px;
+                padding: 5px 10px;
+            }
+        }
+    }
+}
