@@ -444,6 +444,11 @@ header .container-fluid .menu a:hover::after {
   text-align: center;
   justify-items: center;
   padding: 5px;
+
+}
+.main_contacto .form-section .formulario .input-form input{
+  padding: 5px;
+
 }
 .main_contacto .form-section .formulario .input-form .msj_form {
   padding: 5px;
