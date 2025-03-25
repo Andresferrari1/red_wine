@@ -468,11 +468,12 @@ header .container-fluid .menu {
   background-color: #5f1510;
 }
 .main_reserva .wps {
-  color: #727272;
+  color: #d4d4d4;
   padding: 25px;
   font-size: 30px;
   font-weight: 600;
   font-family: 'Courier New', Courier, monospace;
+  text-shadow: 4px 6px 6px  #5f1510;
 }
 .main_reserva .download button {
   font-size: 15px;
@@ -488,7 +489,8 @@ header .container-fluid .menu {
   background-color: #5f1510;
 }
 .main_reserva .saludo_ws {
-  color: #521414;
+  color: rgb(253, 251, 251);
+  text-shadow: 4px 6px 6px  #5f1510;
   background: none;
   font-weight: 500;
   text-align: left;
@@ -560,7 +562,7 @@ header .container-fluid .menu {
 
 @media screen and (max-width: 768px) {
   .main_alm .fondo {
-    height: 100vh;
+    height: 500px;
     width: 100%;
   }
   .main_alm .wrap_column-1_carta {
@@ -596,7 +598,7 @@ header .container-fluid .menu {
 }
 @media screen and (max-width: 768px) {
   .main_des .fondo{
-    height: 100vh;
+    height: 500px;
     width: 100%;
   }
   .main_des .wrap_column-2_carta {
