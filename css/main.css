@@ -560,7 +560,7 @@ header .container-fluid .menu {
 
 @media screen and (max-width: 768px) {
   .main_alm .fondo {
-    height: 500px;
+    height: 100vh;
     width: 100%;
   }
   .main_alm .wrap_column-1_carta {
@@ -596,7 +596,7 @@ header .container-fluid .menu {
 }
 @media screen and (max-width: 768px) {
   .main_des .fondo{
-    height: 500px;
+    height: 100vh;
     width: 100%;
   }
   .main_des .wrap_column-2_carta {
